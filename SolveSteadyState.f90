@@ -1,9 +1,5 @@
 SUBROUTINE SolveSteadyState
-!Steady-state equilibrium solver: outer fixed-point loop over
-!(K, L_u, L_s, tau, I*) with the HJB/FPK inner solves.
-!Asset-market update uses adaptive damping (halve step on sign flips of the
-!residual): the supply map is decreasing in K and fixed damping period-2
-!cycles under patient calibrations.
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
