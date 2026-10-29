@@ -1,0 +1,6 @@
+&config
+  mode = 0
+  A_bar = 0.075
+  Display = 2
+  outdir = 'output_base'
+/
