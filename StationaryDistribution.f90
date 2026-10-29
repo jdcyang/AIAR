@@ -1,10 +1,5 @@
 SUBROUTINE StationaryDistribution(first)
-!Stationary FPK: implicit pseudo-time iteration on the adjoint operator,
-!  g^{k+1} = (I/Delta_f - A_op')^{-1} g^k / Delta_f
-!The resolvent is an M-matrix: iterates stay positive and mass-preserving.
-!Banded dgbsv on the transpose system; warm-started from gg_prev.
-!Uses the upwind drift implied by the CURRENT value function (mirrors the
-!MATLAB solver, whose A_op is built from the ssf/ssb branches).
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
