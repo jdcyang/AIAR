@@ -1,6 +1,5 @@
 SUBROUTINE ComputeGinis
 !Wealth, income and consumption Gini coefficients from the stationary
-!joint density (mirrors compute_all_ginis in the MATLAB solver).
 USE Parameters
 USE Globals
 IMPLICIT NONE
