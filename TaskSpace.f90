@@ -1,6 +1,5 @@
 SUBROUTINE TaskSpaceInit
-!Task-space quantities at the technological frontier I_A = A_bar*N,
-!transition matrix Q and its stationary distribution pi_ss.
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
