@@ -1,10 +1,5 @@
 PROGRAM Main
-!AIAR model — Fortran port (architecture follows Kaplan-Moll-Violante 2018
-!replication). Experiment modes via input.nml:
-!  mode = 0: single steady state (A_bar, token_tax, adopt_margin, ...)
-!  mode = 1: automation sweep (A_min:A_step:A_max) -> sweep.csv
-!  mode = 2: token tax x A grid, adoption margin off/on -> adoption.csv
-!  mode = 3: welfare CEV sweep (reference tau=0) -> welfare.csv
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
