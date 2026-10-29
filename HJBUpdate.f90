@@ -1,9 +1,5 @@
 SUBROUTINE HJBUpdate
-!One implicit upwind HJB step:
-!  ((1/Delta)+rho) Vnew = u(c(V)) + A_op Vnew + V/Delta
-!Upwind branches only for positive derivatives (mirrors the MATLAB solver).
-!The system is banded with kl=ku=nstates after interleaving
-!(asset i, state s) -> j = (i-1)*nstates + s; solved with LAPACK dgbsv.
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
