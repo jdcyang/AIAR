@@ -1,7 +1,5 @@
 SUBROUTINE IterateBellman(first)
-!Implicit upwind HJB iteration until max|Vnew-V| < crit_hjb.
-!first = .true. initializes V from the static optimum; otherwise the
-!incoming V is used as a warm start (previous outer iteration).
+
 USE Parameters
 USE Globals
 IMPLICIT NONE
